@@ -3,4 +3,4 @@
 * [Home](/README.md)
 * [python](/python/)
 * [dating](/dating/)
-* [thoughts](/thoughts]/)
+* [thoughts](/thoughts/)
