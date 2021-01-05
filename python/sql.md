@@ -1,5 +1,3 @@
-# sql
-
 在create table 的时候用 nvarchar 才能显示Unicode Character包括中文
 
 用python建立链接, 在config 中必须加上'charset':'utf8'才能显示中文

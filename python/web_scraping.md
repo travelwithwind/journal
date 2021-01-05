@@ -1,5 +1,3 @@
-# 爬虫
-
 ## 豆瓣封我ip了
 
 避免被封的办法：
@@ -17,29 +15,12 @@ google 和百度都没问题。 也许因为豆瓣动态加载，需要用seleni
 
 ## xml and xpath
 
+To find tag that contains certain texts
+	`file = tree.xpath('//h2[text()="File " or text()="Image "]')`
+	
+
 每一部电影占据一个li，但是我们要的是a
 titles = tree.xpath('//*[@id = "content"] / div / div[1] / ol / li / div / div[2] / div[1] / a')
 
 根据text找node。
 tree.xpath("//a[text()='后页>']")
-
-# 微信
-
-群发助手，发视频，一直在转圈圈，好像没有发出去，但是其实是发出去了。
-
-
-
-
-
-# what next
-
-1. dealin with image
-
-    ```
-    >>> from PIL import Image
-    >>> from io import BytesIO
-    
-    >>> i = Image.open(BytesIO(r.content))
-    ```
-
-2. search result is blank. it's probably returned as json. I need to find out how to extract and parse json.
