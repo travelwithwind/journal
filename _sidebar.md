@@ -1,5 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/README.md)
-* [kivy](/python/)
+* [python](/python/)
 * [dating](/dating/)
+* [thoughts](/thoughts]/)
