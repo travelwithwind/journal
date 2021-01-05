@@ -2,7 +2,7 @@
 
 * [Home](/README.md)
 * [python](/python/)
-* [dating](/structure/)
+* [dating](/dating/)
 	* [fundamentals](/dating/fundamentals.md)
 	* [structure](/dating/structure.md)
 	* [connection](/dating/connection.md)

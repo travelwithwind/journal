@@ -6,7 +6,7 @@
 	* [kivy](/python/kivy.md)
 	* [sql](/python/sql.md)
 	* [web scraping](/python/web_scraping.md)
-* [dating](/structure/)
+* [dating](/dating/)
 * [thoughts](/thoughts/)
 
 
