@@ -2,7 +2,7 @@
 
 1. To import file from another directory, you need to add the directory to the system path.
 
-    ```
+    ```{python}
     import sys
     sys.path.append("/path/to/dir")
     ```
@@ -19,7 +19,17 @@
 
 3. import will run everything in the file unless the code chunk is under `if __name__=='main':`
 
+4. When a module is run as the top-level script, it loses its normal name and its name is instead `__main__`.
+All the Relative imports will not work.
 
+A package is organized like this
+
+    - package
+         - main.py
+         - data
+         - model
+
+    
 # debugging
 
 ctrl+d: duplicate
