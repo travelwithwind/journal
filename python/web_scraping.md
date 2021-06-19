@@ -18,6 +18,11 @@ google 和百度都没问题。 也许因为豆瓣动态加载，需要用seleni
 To find tag that contains certain texts
 	`file = tree.xpath('//h2[text()="File " or text()="Image "]')`
 	
+To collect the text of the node, use 
+'.../text()'
+
+To collect the property of the node, use 
+'.../@title'
 
 每一部电影占据一个li，但是我们要的是a
 titles = tree.xpath('//*[@id = "content"] / div / div[1] / ol / li / div / div[2] / div[1] / a')

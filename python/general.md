@@ -2,9 +2,9 @@
 
 1. To import file from another directory, you need to add the directory to the system path.
 
-    ```{python}
-    import sys
-    sys.path.append("/path/to/dir")
+    ```python
+   import sys
+   sys.path.append("/path/to/dir")
     ```
 
 2. If you have revised a file and want to import it again. Using "import" won't do it,
@@ -12,9 +12,9 @@
 
     Use reload.
 
-    ```
-    import importlib
-    importlib.reload(test_rich)
+    ```python
+   import importlib
+   importlib.reload(test_rich)
     ```
 
 3. import will run everything in the file unless the code chunk is under `if __name__=='main':`
